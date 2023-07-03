@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4529F95E2A50C11D00FCE305 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4529F95D2A50C11D00FCE305 /* ProfileView.swift */; };
+		4529F9602A50C12400FCE305 /* GuidanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4529F95F2A50C12400FCE305 /* GuidanceView.swift */; };
+		4529F9622A50C12A00FCE305 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4529F9612A50C12A00FCE305 /* SettingsView.swift */; };
+		4578131B2A5054E2005C2CD9 /* ApenaFreedivingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578131A2A5054E2005C2CD9 /* ApenaFreedivingApp.swift */; };
+		4578131D2A5054E2005C2CD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578131C2A5054E2005C2CD9 /* ContentView.swift */; };
+		4578131F2A5054E4005C2CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4578131E2A5054E4005C2CD9 /* Assets.xcassets */; };
+		457813222A5054E4005C2CD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457813212A5054E4005C2CD9 /* Preview Assets.xcassets */; };
+		4578132C2A5054E4005C2CD9 /* ApenaFreedivingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578132B2A5054E4005C2CD9 /* ApenaFreedivingTests.swift */; };
+		457813362A5054E4005C2CD9 /* ApenaFreedivingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457813352A5054E4005C2CD9 /* ApenaFreedivingUITests.swift */; };
+		457813382A5054E4005C2CD9 /* ApenaFreedivingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457813372A5054E4005C2CD9 /* ApenaFreedivingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		457813282A5054E4005C2CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4578130F2A5054E2005C2CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457813162A5054E2005C2CD9;
+			remoteInfo = ApenaFreediving;
+		};
+		457813322A5054E4005C2CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4578130F2A5054E2005C2CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457813162A5054E2005C2CD9;
+			remoteInfo = ApenaFreediving;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4529F95D2A50C11D00FCE305 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4529F95F2A50C12400FCE305 /* GuidanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidanceView.swift; sourceTree = "<group>"; };
+		4529F9612A50C12A00FCE305 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		457813172A5054E2005C2CD9 /* ApenaFreediving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApenaFreediving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4578131A2A5054E2005C2CD9 /* ApenaFreedivingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApenaFreedivingApp.swift; sourceTree = "<group>"; };
+		4578131C2A5054E2005C2CD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4578131E2A5054E4005C2CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		457813212A5054E4005C2CD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		457813272A5054E4005C2CD9 /* ApenaFreedivingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApenaFreedivingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4578132B2A5054E4005C2CD9 /* ApenaFreedivingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApenaFreedivingTests.swift; sourceTree = "<group>"; };
+		457813312A5054E4005C2CD9 /* ApenaFreedivingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApenaFreedivingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		457813352A5054E4005C2CD9 /* ApenaFreedivingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApenaFreedivingUITests.swift; sourceTree = "<group>"; };
+		457813372A5054E4005C2CD9 /* ApenaFreedivingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApenaFreedivingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457813142A5054E2005C2CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457813242A5054E4005C2CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4578132E2A5054E4005C2CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4578130E2A5054E2005C2CD9 = {
+			isa = PBXGroup;
+			children = (
+				457813192A5054E2005C2CD9 /* ApenaFreediving */,
+				4578132A2A5054E4005C2CD9 /* ApenaFreedivingTests */,
+				457813342A5054E4005C2CD9 /* ApenaFreedivingUITests */,
+				457813182A5054E2005C2CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		457813182A5054E2005C2CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				457813172A5054E2005C2CD9 /* ApenaFreediving.app */,
+				457813272A5054E4005C2CD9 /* ApenaFreedivingTests.xctest */,
+				457813312A5054E4005C2CD9 /* ApenaFreedivingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		457813192A5054E2005C2CD9 /* ApenaFreediving */ = {
+			isa = PBXGroup;
+			children = (
+				4578131A2A5054E2005C2CD9 /* ApenaFreedivingApp.swift */,
+				4578131C2A5054E2005C2CD9 /* ContentView.swift */,
+				4578131E2A5054E4005C2CD9 /* Assets.xcassets */,
+				457813202A5054E4005C2CD9 /* Preview Content */,
+				4529F95D2A50C11D00FCE305 /* ProfileView.swift */,
+				4529F95F2A50C12400FCE305 /* GuidanceView.swift */,
+				4529F9612A50C12A00FCE305 /* SettingsView.swift */,
+			);
+			path = ApenaFreediving;
+			sourceTree = "<group>";
+		};
+		457813202A5054E4005C2CD9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				457813212A5054E4005C2CD9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4578132A2A5054E4005C2CD9 /* ApenaFreedivingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4578132B2A5054E4005C2CD9 /* ApenaFreedivingTests.swift */,
+			);
+			path = ApenaFreedivingTests;
+			sourceTree = "<group>";
+		};
+		457813342A5054E4005C2CD9 /* ApenaFreedivingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				457813352A5054E4005C2CD9 /* ApenaFreedivingUITests.swift */,
+				457813372A5054E4005C2CD9 /* ApenaFreedivingUITestsLaunchTests.swift */,
+			);
+			path = ApenaFreedivingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		457813162A5054E2005C2CD9 /* ApenaFreediving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4578133B2A5054E4005C2CD9 /* Build configuration list for PBXNativeTarget "ApenaFreediving" */;
+			buildPhases = (
+				457813132A5054E2005C2CD9 /* Sources */,
+				457813142A5054E2005C2CD9 /* Frameworks */,
+				457813152A5054E2005C2CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApenaFreediving;
+			productName = ApenaFreediving;
+			productReference = 457813172A5054E2005C2CD9 /* ApenaFreediving.app */;
+			productType = "com.apple.product-type.application";
+		};
+		457813262A5054E4005C2CD9 /* ApenaFreedivingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4578133E2A5054E4005C2CD9 /* Build configuration list for PBXNativeTarget "ApenaFreedivingTests" */;
+			buildPhases = (
+				457813232A5054E4005C2CD9 /* Sources */,
+				457813242A5054E4005C2CD9 /* Frameworks */,
+				457813252A5054E4005C2CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457813292A5054E4005C2CD9 /* PBXTargetDependency */,
+			);
+			name = ApenaFreedivingTests;
+			productName = ApenaFreedivingTests;
+			productReference = 457813272A5054E4005C2CD9 /* ApenaFreedivingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		457813302A5054E4005C2CD9 /* ApenaFreedivingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457813412A5054E4005C2CD9 /* Build configuration list for PBXNativeTarget "ApenaFreedivingUITests" */;
+			buildPhases = (
+				4578132D2A5054E4005C2CD9 /* Sources */,
+				4578132E2A5054E4005C2CD9 /* Frameworks */,
+				4578132F2A5054E4005C2CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457813332A5054E4005C2CD9 /* PBXTargetDependency */,
+			);
+			name = ApenaFreedivingUITests;
+			productName = ApenaFreedivingUITests;
+			productReference = 457813312A5054E4005C2CD9 /* ApenaFreedivingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4578130F2A5054E2005C2CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					457813162A5054E2005C2CD9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					457813262A5054E4005C2CD9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 457813162A5054E2005C2CD9;
+					};
+					457813302A5054E4005C2CD9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 457813162A5054E2005C2CD9;
+					};
+				};
+			};
+			buildConfigurationList = 457813122A5054E2005C2CD9 /* Build configuration list for PBXProject "ApenaFreediving" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4578130E2A5054E2005C2CD9;
+			productRefGroup = 457813182A5054E2005C2CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457813162A5054E2005C2CD9 /* ApenaFreediving */,
+				457813262A5054E4005C2CD9 /* ApenaFreedivingTests */,
+				457813302A5054E4005C2CD9 /* ApenaFreedivingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		457813152A5054E2005C2CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457813222A5054E4005C2CD9 /* Preview Assets.xcassets in Resources */,
+				4578131F2A5054E4005C2CD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457813252A5054E4005C2CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4578132F2A5054E4005C2CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457813132A5054E2005C2CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4529F95E2A50C11D00FCE305 /* ProfileView.swift in Sources */,
+				4529F9602A50C12400FCE305 /* GuidanceView.swift in Sources */,
+				4578131D2A5054E2005C2CD9 /* ContentView.swift in Sources */,
+				4578131B2A5054E2005C2CD9 /* ApenaFreedivingApp.swift in Sources */,
+				4529F9622A50C12A00FCE305 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457813232A5054E4005C2CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4578132C2A5054E4005C2CD9 /* ApenaFreedivingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4578132D2A5054E4005C2CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457813362A5054E4005C2CD9 /* ApenaFreedivingUITests.swift in Sources */,
+				457813382A5054E4005C2CD9 /* ApenaFreedivingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457813292A5054E4005C2CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457813162A5054E2005C2CD9 /* ApenaFreediving */;
+			targetProxy = 457813282A5054E4005C2CD9 /* PBXContainerItemProxy */;
+		};
+		457813332A5054E4005C2CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457813162A5054E2005C2CD9 /* ApenaFreediving */;
+			targetProxy = 457813322A5054E4005C2CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		457813392A5054E4005C2CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4578133A2A5054E4005C2CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4578133C2A5054E4005C2CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApenaFreediving/Preview Content\"";
+				DEVELOPMENT_TEAM = DCJ6266V2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasjs.ApenaFreediving;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4578133D2A5054E4005C2CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApenaFreediving/Preview Content\"";
+				DEVELOPMENT_TEAM = DCJ6266V2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasjs.ApenaFreediving;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4578133F2A5054E4005C2CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DCJ6266V2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasjs.ApenaFreedivingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApenaFreediving.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ApenaFreediving";
+			};
+			name = Debug;
+		};
+		457813402A5054E4005C2CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DCJ6266V2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasjs.ApenaFreedivingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApenaFreediving.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ApenaFreediving";
+			};
+			name = Release;
+		};
+		457813422A5054E4005C2CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DCJ6266V2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasjs.ApenaFreedivingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ApenaFreediving;
+			};
+			name = Debug;
+		};
+		457813432A5054E4005C2CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DCJ6266V2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasjs.ApenaFreedivingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ApenaFreediving;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		457813122A5054E2005C2CD9 /* Build configuration list for PBXProject "ApenaFreediving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457813392A5054E4005C2CD9 /* Debug */,
+				4578133A2A5054E4005C2CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4578133B2A5054E4005C2CD9 /* Build configuration list for PBXNativeTarget "ApenaFreediving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4578133C2A5054E4005C2CD9 /* Debug */,
+				4578133D2A5054E4005C2CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4578133E2A5054E4005C2CD9 /* Build configuration list for PBXNativeTarget "ApenaFreedivingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4578133F2A5054E4005C2CD9 /* Debug */,
+				457813402A5054E4005C2CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457813412A5054E4005C2CD9 /* Build configuration list for PBXNativeTarget "ApenaFreedivingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457813422A5054E4005C2CD9 /* Debug */,
+				457813432A5054E4005C2CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4578130F2A5054E2005C2CD9 /* Project object */;
+}

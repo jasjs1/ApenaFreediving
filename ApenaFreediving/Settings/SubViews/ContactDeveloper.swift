@@ -11,7 +11,7 @@ struct ContactDeveloperView: View {
     var body: some View {
         VStack {
             List {
-                Image("DeveloperProiflePicture")
+                Image("profileIcon")
                     .resizable()
                     .frame(width: 302, height: 302)
                     .clipShape(Circle())

@@ -34,6 +34,7 @@ struct BreathHoldingTest: View {
                 
                 Text("YOUR BEST RESULT: \(formattedElapsedTime(bestResult))")
                     .padding(.top, 1)
+                    .bold()
                 
                 Spacer()
                 
@@ -65,12 +66,12 @@ struct BreathHoldingTest: View {
                 .padding(.bottom, 20)
                 .alert(isPresented: $showingConfirmationAlert) {
                     Alert(
-                        title: Text("Safety Reminder"),
+                        title: Text("IMPORTANT SAFTEY MESSAGE"),
                         message: Text("Never freedive alone; always have a trained buddy. Prioritize training, and if you feel lightheaded or dizzy, come up to the surface and breathe."),
-                        primaryButton: .default(Text("Continue")) {
+                        primaryButton: .default(Text("I Agree")) {
                             isTimerRunning = true // Start the timer when the user confirms the alert
                         },
-                        secondaryButton: .cancel(Text("Cancel")) {
+                        secondaryButton: .cancel(Text("Maybe Later")) {
                             isTimerRunning = false // Stop the timer if the user cancels the alert
                         }
                     )

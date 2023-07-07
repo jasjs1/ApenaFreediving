@@ -72,8 +72,8 @@ struct NotificationView: View {
             return
         }
         
-        let alertController = UIAlertController(title: "Notification", message: message, preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        let alertController = UIAlertController(title: "Training Reminders Disabled", message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Close", style: .default, handler: nil)
         alertController.addAction(okAction)
         
         let settingsAction = UIAlertAction(title: "Settings", style: .default) { _ in

@@ -1,10 +1,3 @@
-//
-//  NotificationView.swift
-//  ApenaFreediving
-//
-//  Created by Jayce Sagvold on 7/7/23.
-//
-
 import SwiftUI
 import UserNotifications
 
@@ -25,10 +18,10 @@ struct NotificationView: View {
                         .foregroundColor(.white)
                         .bold()
                         .font(.title)
-                        .frame(width: 1500, height: 155)
+                        .frame(width: 400, height: 50) // Adjusted the frame width and height
                     
                     Text("Get training notifications, so you can train.")
-                        .padding(.top, -30)
+                        .padding(.top, 15)
                         .foregroundColor(.white)
                         .bold()
                     
@@ -57,14 +50,43 @@ struct NotificationView: View {
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
             if granted {
                 print("Push notifications permission granted.")
+                print("Redirecting to notification preferences...")
                 
                 DispatchQueue.main.async {
                     UIApplication.shared.registerForRemoteNotifications()
+                    self.showAlert(with: "Training Reminders have already been enabled. If you are looking to modify settings go to ApenaFreediving > Training Reminder Settings")
                 }
             } else {
                 print("Push notifications permission denied.")
+                print("Not redirecting to notification preferences.")
+                
+                DispatchQueue.main.async {
+                    self.showAlert(with: "Training Reminders are disabled. If you want to enable them press the Settings button below.")
+                }
             }
         }
+    }
+
+    private func showAlert(with message: String) {
+        guard let viewController = UIApplication.shared.windows.first?.rootViewController else {
+            return
+        }
+        
+        let alertController = UIAlertController(title: "Notification", message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(okAction)
+        
+        let settingsAction = UIAlertAction(title: "Settings", style: .default) { _ in
+            guard let settingsUrl = URL(string: UIApplication.openSettingsURLString) else {
+                return
+            }
+            if UIApplication.shared.canOpenURL(settingsUrl) {
+                UIApplication.shared.open(settingsUrl, options: [:], completionHandler: nil)
+            }
+        }
+        alertController.addAction(settingsAction)
+        
+        viewController.present(alertController, animated: true, completion: nil)
     }
 }
 

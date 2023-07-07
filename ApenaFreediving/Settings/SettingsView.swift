@@ -17,6 +17,12 @@ struct SettingsView: View {
                     }
                 }
                 
+                Section(header: Text("Notifications")) {
+                    NavigationLink(destination: NotificationView()) {
+                        Label("Exersise Reminders", systemImage: "bell.badge")
+                    }
+                }
+                
                 Section(header: Text("Resources & Support")) {
 
                     NavigationLink(destination: ContactDeveloperView()) {

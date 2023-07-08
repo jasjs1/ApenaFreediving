@@ -21,6 +21,9 @@ struct SettingsView: View {
                     NavigationLink(destination: NotificationView()) {
                         Label("Exersise Reminders", systemImage: "bell.badge")
                     }
+                    NavigationLink(destination: SetupNotificationView()) {
+                        Label("Notificaiton Customization", systemImage: "pencil")
+                    }
                 }
                 
                 Section(header: Text("Resources & Support")) {
@@ -36,7 +39,7 @@ struct SettingsView: View {
                         HStack(spacing: 22) {
                             Image(systemName: "link")
                             Text("Bug Report")
-                                .foregroundColor(.black)
+                                .foregroundColor(.accentColor)
                         }
                     }
 
@@ -44,7 +47,7 @@ struct SettingsView: View {
                         HStack(spacing: 22) {
                             Image(systemName: "link")
                             Text("Give App Feedback")
-                                .foregroundColor(.black)
+                                .foregroundColor(.accentColor)
                         }
                     }
                 }
